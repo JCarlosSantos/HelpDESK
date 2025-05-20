@@ -1,0 +1,7 @@
+{
+  "id": "0",
+  "name": "Administrador",
+  "email": "admin@admin.com",
+  "password": "admin",
+  "type": "admin"
+}
