@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HelpDesk • Cadastro</title>
+    <link rel="stylesheet" href="../shared/global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="register-container">
+        <img src="../shared/logo.png">
+        <h1>Cadastrar</h1>
+        <form id="register-form">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E‑mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="type">Tipo de Usuário</label>
+            <select id="type">
+                <option value="client">Cliente</option>
+                <option value="technician">Técnico</option>
+            </select>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p class="redirect">
+            Já tem conta? <a href="../login/index.html">Entrar</a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
