@@ -57,7 +57,8 @@ helpdesk/
 │   └── admin/
 │       └── ...
 ├── venv/                          # Ambiente virtual Python (gerado localmente, não obrigatório no repositório)
-└── README.md
+├── README.md
+└── gitgnore.txt
 
 ```
 
